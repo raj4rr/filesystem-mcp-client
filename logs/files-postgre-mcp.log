@@ -1,0 +1,207 @@
+2026-10-13T13:48:27.440+02:00  INFO 9291 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 9291 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T13:48:27.443+02:00 DEBUG 9291 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T13:48:27.443+02:00  INFO 9291 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T13:48:28.286+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T13:48:28.299+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T13:48:28.299+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T13:48:28.327+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T13:48:28.328+02:00  INFO 9291 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 838 ms
+2026-10-13T13:48:28.693+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T13:48:28.737+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 5
+2026-10-13T13:48:28.737+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T13:48:28.737+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T13:48:28.737+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T13:48:28.796+02:00  INFO 9291 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T13:48:28.800+02:00  WARN 9291 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T13:48:28.851+02:00  INFO 9291 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2026-10-13T13:48:29.010+02:00  INFO 9291 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Started FileSystemMcpApplication in 1.758 seconds (process running for 3.059)
+2026-10-13T14:48:16.748+02:00  INFO 13388 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 13388 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T14:48:16.749+02:00 DEBUG 13388 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T14:48:16.749+02:00  INFO 13388 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T14:48:17.226+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T14:48:17.232+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T14:48:17.232+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T14:48:17.245+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T14:48:17.245+02:00  INFO 13388 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 472 ms
+2026-10-13T14:48:17.535+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T14:48:17.571+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T14:48:17.571+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T14:48:17.571+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T14:48:17.572+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T14:48:17.615+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T14:48:17.619+02:00  WARN 13388 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T14:48:17.642+02:00  INFO 13388 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2026-10-13T14:48:17.651+02:00  INFO 13388 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Started FileSystemMcpApplication in 1.164 seconds (process running for 1.48)
+2026-10-13T14:48:48.304+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Tool called: create_file with path: /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello.java
+2026-10-13T14:48:48.336+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Tool called: write_file with path: /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello.java, append: false, overwrite: true
+2026-10-13T14:48:48.401+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Successfully saved file to /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello.java (102 bytes)
+2026-10-13T14:49:40.239+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Tool called: read_file with filePath: /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello.java, maxLines: null
+2026-10-13T14:49:40.260+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Successfully read 1 lines from /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello.java
+2026-10-13T14:51:30.019+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Tool called: create_file with path: /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello1.java
+2026-10-13T14:51:30.597+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Tool called: write_file with path: /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello1.java, append: false, overwrite: true
+2026-10-13T14:51:32.890+02:00  INFO 13388 --- [files-postgre-mcp] [pool-1-thread-1] c.example.mcp.service.FileToolService    : Successfully saved file to /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/Hello1.java (103 bytes)
+2026-10-13T15:30:05.173+02:00  INFO 15176 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 15176 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T15:30:05.174+02:00 DEBUG 15176 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T15:30:05.175+02:00  INFO 15176 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T15:30:05.595+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T15:30:05.601+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T15:30:05.602+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T15:30:05.615+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T15:30:05.615+02:00  INFO 15176 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2026-10-13T15:30:05.875+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T15:30:05.914+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T15:30:05.914+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T15:30:05.915+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T15:30:05.915+02:00  INFO 15176 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T15:30:05.961+02:00  INFO 15176 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T15:30:05.963+02:00  WARN 15176 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T15:30:05.981+02:00  WARN 15176 --- [files-postgre-mcp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-13T15:30:05.997+02:00  INFO 15176 --- [files-postgre-mcp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-13T15:30:06.007+02:00 ERROR 15176 --- [files-postgre-mcp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-10-13T15:32:46.039+02:00  INFO 15353 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 15353 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T15:32:46.040+02:00 DEBUG 15353 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T15:32:46.040+02:00  INFO 15353 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T15:32:46.449+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T15:32:46.456+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T15:32:46.456+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T15:32:46.469+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T15:32:46.470+02:00  INFO 15353 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 410 ms
+2026-10-13T15:32:46.716+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T15:32:46.751+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T15:32:46.751+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T15:32:46.751+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T15:32:46.752+02:00  INFO 15353 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T15:32:46.794+02:00  INFO 15353 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T15:32:46.796+02:00  WARN 15353 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T15:32:46.813+02:00  WARN 15353 --- [files-postgre-mcp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-13T15:32:46.830+02:00  INFO 15353 --- [files-postgre-mcp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-13T15:32:46.844+02:00 ERROR 15353 --- [files-postgre-mcp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-10-13T15:37:00.835+02:00  INFO 15517 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 15517 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T15:37:00.836+02:00 DEBUG 15517 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T15:37:00.837+02:00  INFO 15517 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T15:37:01.238+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T15:37:01.244+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T15:37:01.244+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T15:37:01.257+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T15:37:01.257+02:00  INFO 15517 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 401 ms
+2026-10-13T15:37:01.513+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T15:37:01.555+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T15:37:01.555+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T15:37:01.555+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T15:37:01.555+02:00  INFO 15517 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T15:37:01.601+02:00  INFO 15517 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T15:37:01.603+02:00  WARN 15517 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T15:37:01.623+02:00  WARN 15517 --- [files-postgre-mcp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-13T15:37:01.641+02:00  INFO 15517 --- [files-postgre-mcp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-13T15:37:01.651+02:00 ERROR 15517 --- [files-postgre-mcp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-10-13T15:39:49.284+02:00  INFO 15614 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 15614 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T15:39:49.285+02:00 DEBUG 15614 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T15:39:49.285+02:00  INFO 15614 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T15:39:49.738+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T15:39:49.744+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T15:39:49.744+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T15:39:49.758+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T15:39:49.758+02:00  INFO 15614 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 455 ms
+2026-10-13T15:39:50.015+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T15:39:50.051+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T15:39:50.051+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T15:39:50.052+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T15:39:50.052+02:00  INFO 15614 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T15:39:50.092+02:00  INFO 15614 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T15:39:50.094+02:00  WARN 15614 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T15:39:50.117+02:00  WARN 15614 --- [files-postgre-mcp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-13T15:39:50.129+02:00  INFO 15614 --- [files-postgre-mcp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-13T15:39:50.139+02:00 ERROR 15614 --- [files-postgre-mcp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-10-13T15:44:17.068+02:00  INFO 15730 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Starting FileSystemMcpApplication v1.0.0-SNAPSHOT using Java 27 with PID 15730 (/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar started by rajesh in /Users/rajesh/IdeaProjects/filesystem-mcp-client)
+2026-10-13T15:44:17.069+02:00 DEBUG 15730 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-10-13T15:44:17.069+02:00  INFO 15730 --- [files-postgre-mcp] [main] c.example.mcp.FileSystemMcpApplication   : The following 1 profile is active: "stdio"
+2026-10-13T15:44:17.473+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2026-10-13T15:44:17.479+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-13T15:44:17.479+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-10-13T15:44:17.493+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-13T15:44:17.493+02:00  INFO 15730 --- [files-postgre-mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 403 ms
+2026-10-13T15:44:17.753+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-10-13T15:44:17.790+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2026-10-13T15:44:17.790+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-10-13T15:44:17.791+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-10-13T15:44:17.791+02:00  INFO 15730 --- [files-postgre-mcp] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-10-13T15:44:17.834+02:00  INFO 15730 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=spring-ai-mcp-client - file-system-mcp, title=file-system-mcp, version=1.0.0]
+2026-10-13T15:44:17.837+02:00  WARN 15730 --- [files-postgre-mcp] [pool-1-thread-1] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2024-11-05 version instead
+2026-10-13T15:44:17.855+02:00  WARN 15730 --- [files-postgre-mcp] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-13T15:44:17.868+02:00  INFO 15730 --- [files-postgre-mcp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-13T15:44:17.878+02:00 ERROR 15730 --- [files-postgre-mcp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+

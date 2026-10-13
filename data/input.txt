@@ -1,0 +1,11 @@
+# Java and MCP Technology
+
+Model Context Protocol (MCP) enables AI applications to interact with external tools and data sources.
+
+A Java Spring Boot MCP server can expose tools for reading files, writing files, and querying PostgreSQL databases.
+
+The filesystem tools allow an AI client to read an input file, process its content, and save the result to a new file.
+
+PostgreSQL integration allows the AI application to retrieve structured data and generate useful reports.
+
+Security is important. The server should validate file paths, restrict access to authorized directories, protect credentials, and avoid overwriting existing files without approval.

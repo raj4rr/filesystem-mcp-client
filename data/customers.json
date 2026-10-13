@@ -1,0 +1,44 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Amit Sharma",
+      "email": "amit.sharma@example.com",
+      "city": "Berlin",
+      "country": "Germany",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "city": "Munich",
+      "country": "Germany",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "John Miller",
+      "email": "john.miller@example.com",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Sara Khan",
+      "email": "sara.khan@example.com",
+      "city": "Hamburg",
+      "country": "Germany",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "David Weber",
+      "email": "david.weber@example.com",
+      "city": "Vienna",
+      "country": "Austria",
+      "active": true
+    }
+  ]
+}

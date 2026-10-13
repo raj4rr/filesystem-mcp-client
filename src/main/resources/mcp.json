@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "file-system-mcp": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "/Users/rajesh/IdeaProjects/filesystem-mcp-server/target/filesystem-mcp-server-1.0.0-SNAPSHOT.jar",
+        "--spring.profiles.active=stdio"
+      ]
+    }
+  }
+}
