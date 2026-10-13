@@ -317,18 +317,6 @@ Copy /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/input.txt to /Users/r
 ```
 - **Tools Invoked**: `read_file` ➔ `create_file` ➔ `get_file_info`.
 
-### 3. Read JSON and Import Data to PostgreSQL
-```text
-Read /Users/rajesh/IdeaProjects/filesystem-mcp-client/data/customers.json, validate the records, identify the matching PostgreSQL table, and propose an import plan. After my approval, insert valid records using the available PostgreSQL MCP tools and report the inserted row count.
-```
-- **Tools Invoked**: `read_file` ➔ JSON validation ➔ Database schema validation and import plan.
-
-### 4. Query PostgreSQL and Generate a Markdown Report
-```text
-Query PostgreSQL for customer counts by city. Format the results as a Markdown report and save it to customer-report.md in my configured filesystem directory. Read the saved file back to verify its contents.
-```
-- **Tools Invoked**: Database query ➔ Markdown formatting ➔ `create_file` ➔ `read_file`.
-
 ---
 
 ## Troubleshooting
